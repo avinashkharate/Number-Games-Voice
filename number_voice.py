@@ -50,8 +50,8 @@ while (guess<10):
         speak(f'Congratulations !!! You Won in {guess} Guesses')
         break
     elif (a>n):
-        print('You Guessed Bigger Number')
-        speak('You Guessed Bigger Number')
+        print('You Guessed Greater Number')
+        speak('You Guessed Greater Number')
         
     else:
         print("You Guessed Smaller Number")
@@ -68,4 +68,5 @@ while (guess<10):
 if(guess==10):
     print("You ran out of chances")
     speak("You ran out of chances")
-
+print("Thank you for playing Number guessing game ")
+speak("Thank you for playing Number guessing game ")
